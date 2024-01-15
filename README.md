@@ -1,5 +1,9 @@
 # Simple color generator widget
 
+## Preview
+
+![The random color code generator widget.](preview.png)
+
 ## Core features
 
 1. The "generate" CTA has a hover behavior and changes icon & text color.
