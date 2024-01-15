@@ -1,6 +1,7 @@
 import './style.css';
 import randomColor from 'randomcolor'; // import random color package
 import React, { useState } from 'react';
+import iconActive from './icon-active.svg';
 import iconInactive from './icon-inactive.svg';
 
 export default function ColorGeneratorWidget() {
