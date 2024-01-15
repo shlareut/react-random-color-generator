@@ -7,6 +7,9 @@
 }
 
 .container .div {
+}
+
+.container .div {
   background-color: #ffffff;
   height: 316px;
   position: relative;
@@ -14,7 +17,9 @@
 }
 
 .container .widget {
-  /* background-color: #ffffff; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 25px;
   box-shadow: 0px 4px 4px #00000040;
   height: 150px;
@@ -23,30 +28,14 @@
   position: absolute;
   top: 70px;
   width: 400px;
-}
-
-.container .generated-color {
-  -webkit-text-stroke: 0.5px #ffffff;
+  -webkit-text-stroke: 0.75px #ffffff;
   color: #000000;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 400;
-  left: 126px;
   letter-spacing: 0;
   line-height: normal;
-  position: absolute;
   text-align: center;
-  top: 34px;
-}
-
-.container .text-wrapper {
-  color: #000000;
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: 0;
-}
-
-.container .span {
-  font-size: 40px;
+  white-space: nowrap;
 }
 
 .container .button {

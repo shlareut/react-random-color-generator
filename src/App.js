@@ -11,13 +11,7 @@ export default function App() {
     <div className="container">
       <div className="div">
         <div className="widget" style={{ backgroundColor: color }}>
-          <p className="generated-color">
-            <span className="text-wrapper">
-              Generated color:
-              <br />
-            </span>
-            <span className="span">{color}</span>
-          </p>
+          Generated color: {color}
         </div>
         <button
           className="button"
