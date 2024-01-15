@@ -27,7 +27,8 @@ export default function App() {
             setColor(newColor);
           }}
         >
-          <div className="text-wrapper-2">Generate</div>
+          Generate
+          {/* <div className="text-wrapper-2">Generate</div> */}
           {/* <img className="image" alt="randomiser icon" src={iconInactive} /> */}
         </button>
         <div className="text-wrapper-3">Random Color Generator Widget</div>
