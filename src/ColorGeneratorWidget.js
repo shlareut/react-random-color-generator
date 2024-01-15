@@ -1,7 +1,6 @@
 import './style.css';
 import randomColor from 'randomcolor'; // import random color package
 import React, { useState } from 'react';
-import iconActive from './icon-active.svg';
 import iconInactive from './icon-inactive.svg';
 
 export default function ColorGeneratorWidget() {
@@ -27,7 +26,7 @@ export default function ColorGeneratorWidget() {
           }}
         >
           <div className="text-wrapper-2">Generate</div>
-          <img className="image" src={iconInactive} />
+          <img className="image" alt="image" src={iconInactive} />
         </button>
         <div className="text-wrapper-3">Random Color Generator Widget</div>
       </div>
