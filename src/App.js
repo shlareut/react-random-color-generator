@@ -1,11 +1,10 @@
 import './App.css';
-import ColorGenerator from './ColorGenerator';
-import logo from './logo.svg';
+import ColorGeneratorWidget from './ColorGeneratorWidget';
 
 export default function App() {
   return (
     <>
-      <ColorGenerator />
+      <ColorGeneratorWidget />
     </>
   );
 }
