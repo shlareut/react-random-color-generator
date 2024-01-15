@@ -7,7 +7,9 @@ export default function ColorGenerator() {
   return (
     <>
       <h1>Random Color Generator</h1>
-      <div>Initial color is {initialColor}</div>
+      <div style={{ backgroundColor: initialColor }}>
+        Generated color: {initialColor}
+      </div>
       <button
         onClick={() => {
           const newColor = randomColor();
