@@ -2,7 +2,7 @@
 
 ## Preview
 
-![The random color code generator widget.](preview.png)
+![The random color code generator widget.](preview.png | width=300)
 
 ## Core features
 
