@@ -11,7 +11,7 @@ export default function App() {
     <div className="container">
       <div className="div">
         <div className="widget" style={{ backgroundColor: color }}>
-          Generated color: {color}
+          Generated Color: {color}
         </div>
         <button
           className="button"
