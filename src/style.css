@@ -59,11 +59,14 @@
   left: 25px;
   overflow: hidden;
   position: absolute;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
   top: 234px;
   width: 400px;
 }
 
-.container .button:hover > .text-wrapper-2 {
+.container .button:hover::first-line {
   color: #ec496a;
 }
 
