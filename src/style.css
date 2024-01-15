@@ -28,7 +28,6 @@
 .container .generated-color {
   -webkit-text-stroke: 0.5px #ffffff;
   color: #000000;
-  font-family: 'Lato-Regular', Helvetica;
   font-size: 20px;
   font-weight: 400;
   left: 126px;
@@ -41,7 +40,6 @@
 
 .container .text-wrapper {
   color: #000000;
-  font-family: 'Lato-Regular', Helvetica;
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0;
@@ -71,7 +69,6 @@
 
 .container .text-wrapper-2 {
   color: #000000;
-  font-family: 'Lato-Regular', Helvetica;
   font-size: 20px;
   font-weight: 400;
   left: 159px;
@@ -98,7 +95,6 @@
 
 .container .text-wrapper-3 {
   color: #000000;
-  font-family: 'Lato-Regular', Helvetica;
   font-size: 20px;
   font-weight: 400;
   left: 25px;
