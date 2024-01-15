@@ -17,7 +17,7 @@ export default function RandomColorWidget() {
         <button
           className="button"
           onClick={() => {
-            const newColor = randomColor({ hue: `${hue}` });
+            const newColor = randomColor({ hue: hue });
             setColor(newColor);
           }}
         >
