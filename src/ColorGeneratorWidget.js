@@ -9,13 +9,13 @@ export default function ColorGeneratorWidget() {
   return (
     <div className="container">
       <div className="div">
-        <div className="widget" style={{ backgroundColor: initialColor }}>
+        <div className="widget" style={{ backgroundColor: color }}>
           <p className="generated-color">
             <span className="text-wrapper">
               Generated color:
               <br />
             </span>
-            <span className="span">{initialColor}</span>
+            <span className="span">{color}</span>
           </p>
         </div>
         <button
@@ -26,7 +26,7 @@ export default function ColorGeneratorWidget() {
           }}
         >
           <div className="text-wrapper-2">Generate</div>
-          <img className="image" alt="image" src={iconInactive} />
+          <img className="image" alt="randomiser icon" src={iconInactive} />
         </button>
         <div className="text-wrapper-3">Random Color Generator Widget</div>
       </div>
