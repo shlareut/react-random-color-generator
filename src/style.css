@@ -39,7 +39,7 @@
 .container .button {
   all: unset;
   background-color: #ffffff;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 10px 0px;
   border: 2px solid;
   border-color: #000000;
   box-sizing: border-box;
@@ -101,4 +101,12 @@
   text-align: center;
   top: 50px;
   white-space: nowrap;
+}
+
+.container .selector {
+  color: #000000;
+  font-size: 15px;
+  position: absolute;
+  top: 285px;
+  left: 25px;
 }
