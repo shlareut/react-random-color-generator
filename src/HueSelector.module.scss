@@ -7,7 +7,10 @@ select {
 }
 
 .selector {
-  position: absolute;
-  left: 520px;
-  top: 226px;
+  position: relative;
+  left: -101.5px;
+  top: -89.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
