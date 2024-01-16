@@ -1,6 +1,4 @@
 select {
-  outline: 0;
-  background-image: none;
   border: 2px solid black;
   width: 198px;
   font-weight: 600;
@@ -8,8 +6,8 @@ select {
 
 .selector {
   position: relative;
-  left: -101.5px;
-  top: -89.5px;
+  left: -102px;
+  top: -25px;
   display: flex;
   flex-direction: row;
   justify-content: center;
