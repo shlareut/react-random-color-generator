@@ -1,5 +1,3 @@
-import React, { useState } from 'react';
-
 export default function HueSelector(props) {
   return (
     <div className="selector">
