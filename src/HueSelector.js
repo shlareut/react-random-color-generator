@@ -1,6 +1,8 @@
+import styles from './HueSelector.module.scss';
+
 export default function HueSelector(props) {
   return (
-    <div className="selector">
+    <div className={styles.selector}>
       <select
         id="hue"
         name="hue"
