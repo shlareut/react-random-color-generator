@@ -1,5 +1,13 @@
+select {
+  outline: 0;
+  background-image: none;
+  border: 2px solid black;
+  width: 190px;
+  font-weight: 600;
+}
+
 .selector {
   position: absolute;
   left: 520px;
-  top: 290px;
+  top: 226px;
 }
