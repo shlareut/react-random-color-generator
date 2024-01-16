@@ -13,8 +13,10 @@
 ## Additional features
 
 - Added a Hue selector that allows you to generate a random color with a particular hue.
+- Added a Luminosity selector that allows you to generate a random color with a particular luminosity.
 
 ## Notes
 
 - Clean and simple UI designed and exported with Figma
 - Reused randomColor package from the Node.js
+- Each selector is a separate component and uses scss.
