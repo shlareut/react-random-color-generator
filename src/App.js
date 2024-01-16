@@ -1,6 +1,7 @@
 import './App.css';
 import React, { useState } from 'react';
 import HueSelector from './HueSelector';
+import LuminositySelector from './LuminositySelector';
 import RandomColorWidget from './RandomColorWidget';
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
     <>
       <RandomColorWidget hue={hue} setHue={setHue} />
       <HueSelector hue={hue} setHue={setHue} />
+      <LuminositySelector />
     </>
   );
 }
