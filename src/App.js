@@ -1,5 +1,4 @@
 import './App.css';
-import './style.css';
 import React, { useState } from 'react';
 import HueSelector from './HueSelector';
 import RandomColorWidget from './RandomColorWidget';

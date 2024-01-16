@@ -6,14 +6,14 @@
   width: 100%;
 }
 
-.container .div {
+.div {
   background-color: #ffffff;
   height: 316px;
   position: relative;
   width: 451px;
 }
 
-.container .widget {
+.widget {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,7 +36,7 @@
   white-space: nowrap;
 }
 
-.container .button {
+.button {
   all: unset;
   background-color: #ffffff;
   border-radius: 0px 0px 10px 0px;
@@ -55,42 +55,16 @@
   color: #000000;
 }
 
-.container .button:hover {
+.button:hover {
   border-color: #ec496a;
 }
 
-.container .button:hover::first-line {
+.button:hover::first-line {
   color: #ec496a;
   font-weight: 600;
 }
 
-.container .text-wrapper-2 {
-  color: #000000;
-  font-size: 20px;
-  font-weight: 400;
-  left: 159px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 12px;
-  white-space: nowrap;
-}
-
-.container .image {
-  height: 24px;
-  left: 27px;
-  object-fit: cover;
-  position: absolute;
-  top: 13px;
-  width: 24px;
-}
-
-.container .button:hover > .image {
-  content: url(./icon-active.svg);
-}
-
-.container .text-wrapper-3 {
+.title {
   color: #000000;
   font-size: 15px;
   font-weight: 600;
@@ -101,12 +75,4 @@
   text-align: center;
   top: 50px;
   white-space: nowrap;
-}
-
-.container .selector {
-  color: #000000;
-  font-size: 15px;
-  position: absolute;
-  top: 285px;
-  left: 25px;
 }
