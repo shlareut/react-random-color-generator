@@ -15,7 +15,10 @@ export default function RandomColorWidget(props) {
         <button
           className={styles.button}
           onClick={() => {
-            const newColor = randomColor({ hue: props.hue });
+            const newColor = randomColor({
+              hue: props.hue,
+              luminosity: props.lum,
+            });
             setColor(newColor);
           }}
         >
